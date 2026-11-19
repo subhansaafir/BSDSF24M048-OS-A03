@@ -457,6 +457,8 @@ int handle_builtin(char** arglist) {
         printf("  else              (optional)\n");
         printf("    <commands>\n");
         printf("  fi\n\n");
+        printf("  set               - Display all shell variables\n");
+        printf("  NAME=value        - Assign a shell variable\n");
 
         last_exit_status = 0;
         return 1;
